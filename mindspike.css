@@ -61,7 +61,7 @@
 
 
 body *, ::placeholder {
-    font-family: "spacemono" !important;
+    font-family: "spacemono", "sitelen seli kiwen mono juniko", "linja-nanpa", "Fairfax HD", "insa pi supa lape" !important;
 	font-size: 0.8rem;
 	font-variant-ligatures: none !important;
 }
