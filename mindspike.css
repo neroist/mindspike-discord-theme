@@ -58,7 +58,7 @@
 	--mindspike-profile-full-color: yellow;
 
 	/* variable for monospaced sitelen pona fonts */
-	--font-sp-mono: 'Fairfax HD', 'nishiki-teki', 'nasin-nanpa', 'sitelen seli kiwen mono juniko';
+	--font-sp-mono: 'Fairfax HD', 'nasin-nanpa', 'sitelen seli kiwen mono juniko', 'nishiki-teki';
     
 	/* variable for monospaced & proportional fonts, includes the previous variable */
 	--font-sp: var(--font-sp-mono), 'sitelen seli kiwen juniko';
