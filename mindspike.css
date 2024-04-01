@@ -16,6 +16,35 @@
 }
 
 
+@font-face {
+    font-family: "Fairfax HD";
+    src: url("assets/FairfaxHD.ttf");
+}
+
+
+@font-face {
+    font-family: "nishiki-teki";
+    src: url("assets/nishiki-teki.ttf");
+}
+
+@font-face {
+    font-family: "nasin-nanpa";
+    src: url("assets/nasin-nanpa-3.1.0.otf");
+}
+
+
+@font-face {
+    font-family: "sitelen seli kiwen mono juniko";
+    src: url("assets/sitelenselikiwenmonojuniko.ttf");
+}
+
+
+@font-face {
+    font-family: "sitelen seli kiwen juniko";
+    src: url("assets/sitelenselikiwenjuniko.ttf");
+}
+
+
 :root {
 	--mindspike-chat-color0: aqua;
 	--mindspike-chat-color1: yellow;
@@ -29,10 +58,10 @@
 	--mindspike-profile-full-color: yellow;
 
 	/* variable for monospaced sitelen pona fonts */
-	--font-sp-mono: 'Fairfax HD', 'nasin-nanpa', 'sitelen seli kiwen mono juniko', 'sitelen seli kiwen mono juniko meso';
+	--font-sp-mono: 'Fairfax HD', 'nishiki-teki', 'nasin-nanpa', 'sitelen seli kiwen mono juniko';
     
 	/* variable for monospaced & proportional fonts, includes the previous variable */
-	--font-sp: var(--font-sp-mono), 'sitelen seli kiwen juniko', 'sitelen seli kiwen juniko meso';
+	--font-sp: var(--font-sp-mono), 'sitelen seli kiwen juniko';
     
 	/* primary font that discord uses */
 	--font-primary: "spacemono", var(--font-sp);
